@@ -1,0 +1,15 @@
+.app {
+  background-color: #f1f2f5;
+}
+
+.app__body {
+  flex:1 1;
+  display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  .app {
+    width: 100%;
+  }
+}
